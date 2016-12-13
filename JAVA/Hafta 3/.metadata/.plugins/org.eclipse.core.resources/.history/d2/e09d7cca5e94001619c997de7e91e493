@@ -1,0 +1,17 @@
+package SimplePaint;
+
+import javax.swing.JFrame;
+
+public class frameOlustur extends JFrame{
+	   public frameOlustur(){
+		   initGUI();
+	   }
+	   private void initGUI(){
+		   this.setTitle("Simple Paint");
+		   this.setSize(500, 500);
+		   this.add(new Surface());
+		   this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		   this.setLocationRelativeTo(null);
+	   }
+
+}

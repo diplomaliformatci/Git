@@ -1,0 +1,24 @@
+package Grafik2_2;
+
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
+import javax.swing.JPanel;
+
+public class Surface extends JPanel{
+	private int uzunluk=50;
+	private int baslangicnoktasi=30;
+				private void doDrawing (Graphics g){
+					Graphics2D kalem = (Graphics2D)g;
+					kalem.drawLine(baslangicnoktasi,baslangicnoktasi, baslangicnoktasi+uzunluk,baslangicnoktasi);
+					kalem.drawLine(baslangicnoktasi+uzunluk,baslangicnoktasi,baslangicnoktasi+uzunluk,baslangicnoktasi+uzunluk);
+					kalem.drawLine(baslangicnoktasi+uzunluk,baslangicnoktasi+uzunluk,baslangicnoktasi,baslangicnoktasi+uzunluk);
+					kalem.drawLine(baslangicnoktasi, baslangicnoktasi+uzunluk,baslangicnoktasi,baslangicnoktasi);
+					
+				}
+				@Override 
+				public void paintComponent(Graphics g){
+					super.paintComponent(g);
+					doDrawing(g);
+				}
+}

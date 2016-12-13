@@ -1,0 +1,15 @@
+package Areas;
+import javax.swing.JFrame;
+
+public class AreasEx extends JFrame{
+	public AreasEx (){
+		initUI();
+	}
+	public void initUI(){
+		add(new Surface());
+		this.setTitle("Areas");
+		this.setSize(500, 500);
+		this.setLocationRelativeTo(null);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}

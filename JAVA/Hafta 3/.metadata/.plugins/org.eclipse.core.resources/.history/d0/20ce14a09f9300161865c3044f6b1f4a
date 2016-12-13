@@ -1,0 +1,64 @@
+package Grafik2_4;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.GeneralPath;
+
+import javax.swing.JPanel;
+
+public class Surface extends JPanel{
+	int boyutx;
+	int boyuty;
+	int width,height;
+	 private final double points[][] = {
+		       { 250, 155 }, { 325, 145 }, { 350, 80 }, { 375, 145 },
+		       { 450, 155 }, { 400, 195 }, { 410, 260 }, { 350, 220 },
+		       { 290, 260 }, { 300, 195 }, { 250, 155 }
+		   };
+
+		public Surface (int boyutx,int boyuty){
+			this.boyutx = boyutx;
+			this.boyuty = boyuty;
+			//width = getHeight()/2/3;
+			//height = getHeight();
+		}
+	public void doDrawing(Graphics g,int boyutx ,int boyuty){
+		width = getHeight()/2/3;
+		height = getHeight();
+				Graphics2D g2d = (Graphics2D)g;
+				
+				
+				
+				
+				g2d.translate(height/2-height/4, height/2-height/4);
+					this.setBackground(Color.red);	
+					g2d.setPaint(Color.yellow);
+					 // g2d.translate(0, height/2); 
+					g2d.fillOval(0,0,height/2,height/2);
+			        //  g2d.translate(height/4, height/2);
+			         g2d.setPaint(getBackground());
+			          g2d.fillOval(height/8,height/9-height/16,4*height/10,4*height/10);
+			          g2d.setPaint(Color.white);
+			          //g2d.translate(50, 50);
+			    AffineTransform tx1 = new AffineTransform();
+			          GeneralPath star = new GeneralPath();
+			    
+			          star.moveTo(points[0][0], points[0][1]);
+			    
+			          for (int k = 1; k < points.length; k++)
+			              star.lineTo(points[k][0], points[k][1]);
+			g2d.translate(height/8+height/16,height/9-height/16);
+			g2d.scale(0.002*height/12,0.018*height/12); 
+			star.closePath();
+			          g2d.fill(star);             
+			          g2d.dispose();
+			          
+			}//height/3 - ic daire yaricap
+			@Override
+			public void paintComponent(Graphics g){
+				super.paintComponent(g);
+				doDrawing(g,boyutx , boyuty);
+			}
+}

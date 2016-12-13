@@ -1,0 +1,18 @@
+package Grafik2_4;
+
+import javax.swing.JFrame;
+
+public class frameOlustur extends JFrame{
+	int boyut = 30;
+					public frameOlustur() {
+						initUI(this.boyut);
+					}
+					private void initUI(int boyut){
+						this.add(new Surface(boyut));
+						this.setTitle("TurkBayragi");
+						this.setSize(boyut,boyut*3/2);
+						this.setLocationRelativeTo(null);
+						this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+						
+					}
+}

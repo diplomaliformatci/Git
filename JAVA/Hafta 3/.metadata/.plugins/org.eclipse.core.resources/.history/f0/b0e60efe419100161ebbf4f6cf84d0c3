@@ -1,0 +1,38 @@
+package Grafik2_1;
+
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
+import javax.swing.JPanel;
+
+public class Surface extends JPanel{
+	private int x1=30;
+	private int y1=30;
+	private int x2=250;
+	private int y2=300;
+	private float x3,y3;
+	int sayi=10 , sayac = 10;
+				public Surface (){
+					x3 = (float)((x2-x1)/10); 
+					y3 = (float)((y2-y1)/10);		
+				}
+	private void doDrawing (Graphics g){
+			Graphics2D g2d = (Graphics2D)g;
+			
+			while (this.sayac > 0){
+			g2d.drawLine(x1, y1,(int)x3,(int)y3 );
+			         x1 = (int)x3;
+			         y1 = (int)y3;
+			         x3 +=(int)x3;
+			         y3 +=(int)y3;
+			         	sayac--;
+			}
+			
+		}
+	@Override
+		public void paintComponent(Graphics g){
+			//super.paintComponent(g);
+			doDrawing(g);
+		}
+
+}

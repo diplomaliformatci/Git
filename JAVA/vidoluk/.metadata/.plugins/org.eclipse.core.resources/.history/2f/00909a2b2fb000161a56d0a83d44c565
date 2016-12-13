@@ -1,0 +1,11 @@
+package Gam;
+
+public class Top {
+	public int x;
+	public int y;
+	private int increment;
+	private boolean border;
+	public Top(int x , int ){
+		
+	}
+}

@@ -1,0 +1,32 @@
+package Ders2_1;
+
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.GridBagLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class TransparentOrnek extends JFrame{
+		public TransparentOrnek () {
+			this.setSize(500,600);
+		// set the layout for the JFrame
+			this.setLayout(new BorderLayout());
+			//construct the graph panels
+			 JPanel regularPanel = new JPanel();
+			GraphPanel g1 = new GraphPanel("Graphpanel2" ,10 ,20 ,this.getSize());
+			GraphPanel g2 = new GraphPanel("Graphpanel1" , 10 ,30 , this.getSize());
+			GraphPanel g3 = new GraphPanel("Graphpanel3" , 10 , 10 ,this.getSize());
+			// new container
+			Container con = new Container();
+			//configure the layout
+			con.setLayout(new GridBagLayout());
+			// add panels to the container
+			con.add(g1);
+			con.add(g2);
+			con.add(g3);
+			// add container to the JFrame positioned in the center 
+			this.add("Center",con);
+			
+		}
+}

@@ -1,0 +1,75 @@
+package Grafik2_6;
+
+import java.awt.AlphaComposite;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Image;
+import java.awt.LayoutManager;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
+import java.awt.image.BufferedImage;
+import java.util.Random;
+
+import javax.swing.JPanel;
+import javax.swing.RepaintManager;
+import javax.swing.Timer;
+
+import sun.java2d.pipe.BufferedPaints;
+
+public class Surface extends JPanel implements ActionListener{
+	Random rand = new Random();	
+	private int x;
+		private int y;
+		private int xi;
+		private int yi;
+		private Timer timer;
+		private int DELAY = 10;
+		private boolean mouseln;
+		public Surface(){
+			initUI();
+		}
+		private void initUI(){
+			addMouseMotionListener(new MyMouseAdapter());
+			addMouseListener(new MyMouseAdapter());	
+		//	initTimer();
+		}
+		@Override
+	public void paintComponent(Graphics g){
+			super.paintComponent(g);
+			doDrawing(g);
+		}
+		private void doDrawing( Graphics g){
+		Graphics2D g2d = (Graphics2D)g;
+		
+			if (mouseln)
+			g2d.drawLine(xi,yi, x, y);
+			//repaint();
+			}
+		@Override
+		public void actionPerformed(ActionEvent e){
+
+		}
+		public class MyMouseAdapter extends MouseAdapter{
+			@Override
+			public void mousePressed ( MouseEvent e){
+				xi = getX();
+				yi = getY();
+				mouseln = true;
+			}
+			@Override
+			public void mouseMoved(MouseEvent e){
+			}
+			@Override
+			public void mouseReleased(MouseEvent e){
+				x = getX();
+				y = getY();
+				mouseln = false;
+			}
+	}
+		
+}

@@ -1,0 +1,42 @@
+package Composition;
+
+import java.awt.AlphaComposite;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
+
+import javax.swing.JPanel;
+
+public class Surface extends JPanel{
+		private final int rules[] = {
+				AlphaComposite.DST,
+				AlphaComposite.DST_ATOP,
+				AlphaComposite.DST_OUT,
+				AlphaComposite.SRC,
+				AlphaComposite.SRC_ATOP,
+				AlphaComposite.SRC_OUT
+		};
+		private void doDrawing (Graphics g){
+			Graphics2D g2d = (Graphics2D) g.create();
+			for (int x=20 , y = 20 ,i=0 ; i<rules.length ; x+= 60 , i++){
+				AlphaComposite ac = AlphaComposite.getInstance(rules[i],0.8f);
+				BufferedImage buffimg = new BufferedImage(60,60, BufferedImage.TYPE_INT_ARGB);
+				Graphics2D g2d = buffimg.createGraphics();
+				g2d.setPaint(Color.blue);
+				g2d.fillRect(0,0,40,40);
+				g2d.setComposite(ac);
+				g2d.setPaint(Color.green);
+				g2d.fillRect(5, 5, 40, 40);
+				g2d.drawImage(buffimg, x, y, null);
+				gbi.dispose();
+			}
+			g2d.dispose();
+		}
+		@Override
+		public void paintComponent (Graphics g){
+			super.paintComponent(g);
+			doDrawing(g);
+		}
+		
+}

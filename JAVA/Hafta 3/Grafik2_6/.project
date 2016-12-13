@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Grafik2_6</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Renkler</name>
+			<type>2</type>
+			<location>/Users/cankincal/Desktop/OKUL/Grafik Prog/Hafta 3/Grafik2_6/src/Renkler</location>
+		</link>
+	</linkedResources>
+</projectDescription>

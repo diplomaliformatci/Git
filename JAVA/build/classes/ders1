@@ -1,0 +1,4 @@
+toolkit
+image image = toolkit.getimage(...);
+g.drawimage (image,x,y,this);
+java2s.com

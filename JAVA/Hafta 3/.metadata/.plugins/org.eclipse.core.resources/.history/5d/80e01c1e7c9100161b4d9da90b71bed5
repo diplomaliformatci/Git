@@ -1,0 +1,26 @@
+package Grafik2_6;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+
+import java.awt.Color;
+//import com.sun.prism.paint.Color;
+import java.awt.color.*;
+
+import java.util.Random;
+
+public class JButtonn extends JButton {
+					public JButtonn(int x , int y) {
+						initUI(x,y);
+					}
+					private void initUI(int x, int y){
+						//this.setLayout(null);
+						Random rand = new Random();
+						this.setLocation(x,y);
+						this.setSize(100, 100);
+						this.setHorizontalAlignment(3);
+						//this.set(new Color(rand.nextInt(255),rand.nextInt(255),rand.nextInt(255)));
+					}
+					
+}

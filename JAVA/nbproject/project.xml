@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.java.j2seproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+            <name>JavaProject2</name>
+            <source-roots>
+                <root id="src.dir"/>
+                <root id="src2.dir"/>
+                <root id="src3.dir"/>
+                <root id="src4.dir"/>
+                <root id="src5.dir"/>
+                <root id="src6.dir"/>
+                <root id="src7.dir"/>
+                <root id="src8.dir"/>
+                <root id="src9.dir"/>
+                <root id="src10.dir"/>
+                <root id="src11.dir"/>
+                <root id="src12.dir"/>
+                <root id="src13.dir"/>
+                <root id="src14.dir"/>
+                <root id="src15.dir"/>
+                <root id="src16.dir"/>
+                <root id="src17.dir"/>
+                <root id="src18.dir"/>
+                <root id="src19.dir"/>
+                <root id="src20.dir"/>
+                <root id="src21.dir"/>
+                <root id="src22.dir"/>
+                <root id="src23.dir"/>
+                <root id="src24.dir"/>
+                <root id="src25.dir"/>
+                <root id="src26.dir"/>
+                <root id="src27.dir"/>
+                <root id="src28.dir"/>
+                <root id="src29.dir"/>
+                <root id="JavaApplication19.dir"/>
+                <root id="src30.dir"/>
+                <root id="src31.dir"/>
+                <root id="RemoteSystemsTempFiles.dir"/>
+                <root id="src32.dir"/>
+                <root id="deneme2.dir"/>
+                <root id="h4.dir"/>
+                <root id="src33.dir"/>
+            </source-roots>
+            <test-roots/>
+        </data>
+    </configuration>
+</project>

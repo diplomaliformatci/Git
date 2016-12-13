@@ -1,0 +1,13 @@
+package Grafik2_6;
+
+import javax.swing.JRadioButton;
+
+public class JButtonn extends JRadioButton{
+					public JButtonn(int x , int y) {
+						initUI(x,y);
+					}
+					private void initUI(int x, int y){
+						this.setLocation(x,y);
+						this.setSize(10, 10);
+					}
+}

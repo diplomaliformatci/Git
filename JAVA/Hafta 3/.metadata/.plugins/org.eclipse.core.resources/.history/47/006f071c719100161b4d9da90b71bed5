@@ -1,0 +1,17 @@
+package Grafik2_6;
+
+import javax.swing.JFrame;
+
+public class frameOlustur extends JFrame{
+			public void frameOlustur(){
+				initUI();
+			}
+			private void initUI(){
+				this.add(new Surface());
+				this.setSize(1500,1500);
+				this.setTitle("Paint");
+				this.setLocationRelativeTo(null);
+				this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			}
+
+}
