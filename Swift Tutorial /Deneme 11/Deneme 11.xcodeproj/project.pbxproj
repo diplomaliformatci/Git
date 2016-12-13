@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FF56D91D7FA9D100C276EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FF56D81D7FA9D100C276EA /* main.m */; };
+		22FF56DC1D7FA9D100C276EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FF56DB1D7FA9D100C276EA /* AppDelegate.m */; };
+		22FF56DF1D7FA9D100C276EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FF56DE1D7FA9D100C276EA /* ViewController.m */; };
+		22FF56E21D7FA9D100C276EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF56E01D7FA9D100C276EA /* Main.storyboard */; };
+		22FF56E41D7FA9D100C276EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FF56E31D7FA9D100C276EA /* Assets.xcassets */; };
+		22FF56E71D7FA9D100C276EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF56E51D7FA9D100C276EA /* LaunchScreen.storyboard */; };
+		22FF56F21D7FA9D100C276EA /* Deneme_11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FF56F11D7FA9D100C276EA /* Deneme_11Tests.m */; };
+		22FF56FD1D7FA9D100C276EA /* Deneme_11UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FF56FC1D7FA9D100C276EA /* Deneme_11UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22FF56EE1D7FA9D100C276EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FF56CC1D7FA9D100C276EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FF56D31D7FA9D100C276EA;
+			remoteInfo = "Deneme 11";
+		};
+		22FF56F91D7FA9D100C276EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FF56CC1D7FA9D100C276EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FF56D31D7FA9D100C276EA;
+			remoteInfo = "Deneme 11";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22FF56D41D7FA9D100C276EA /* Deneme 11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deneme 11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FF56D81D7FA9D100C276EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22FF56DA1D7FA9D100C276EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22FF56DB1D7FA9D100C276EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22FF56DD1D7FA9D100C276EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22FF56DE1D7FA9D100C276EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22FF56E11D7FA9D100C276EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22FF56E31D7FA9D100C276EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22FF56E61D7FA9D100C276EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22FF56E81D7FA9D100C276EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FF56ED1D7FA9D100C276EA /* Deneme 11Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deneme 11Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FF56F11D7FA9D100C276EA /* Deneme_11Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deneme_11Tests.m; sourceTree = "<group>"; };
+		22FF56F31D7FA9D100C276EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FF56F81D7FA9D100C276EA /* Deneme 11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deneme 11UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FF56FC1D7FA9D100C276EA /* Deneme_11UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deneme_11UITests.m; sourceTree = "<group>"; };
+		22FF56FE1D7FA9D100C276EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FF56D11D7FA9D100C276EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF56EA1D7FA9D100C276EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF56F51D7FA9D100C276EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FF56CB1D7FA9D100C276EA = {
+			isa = PBXGroup;
+			children = (
+				22FF56D61D7FA9D100C276EA /* Deneme 11 */,
+				22FF56F01D7FA9D100C276EA /* Deneme 11Tests */,
+				22FF56FB1D7FA9D100C276EA /* Deneme 11UITests */,
+				22FF56D51D7FA9D100C276EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FF56D51D7FA9D100C276EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FF56D41D7FA9D100C276EA /* Deneme 11.app */,
+				22FF56ED1D7FA9D100C276EA /* Deneme 11Tests.xctest */,
+				22FF56F81D7FA9D100C276EA /* Deneme 11UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FF56D61D7FA9D100C276EA /* Deneme 11 */ = {
+			isa = PBXGroup;
+			children = (
+				22FF56DA1D7FA9D100C276EA /* AppDelegate.h */,
+				22FF56DB1D7FA9D100C276EA /* AppDelegate.m */,
+				22FF56DD1D7FA9D100C276EA /* ViewController.h */,
+				22FF56DE1D7FA9D100C276EA /* ViewController.m */,
+				22FF56E01D7FA9D100C276EA /* Main.storyboard */,
+				22FF56E31D7FA9D100C276EA /* Assets.xcassets */,
+				22FF56E51D7FA9D100C276EA /* LaunchScreen.storyboard */,
+				22FF56E81D7FA9D100C276EA /* Info.plist */,
+				22FF56D71D7FA9D100C276EA /* Supporting Files */,
+			);
+			path = "Deneme 11";
+			sourceTree = "<group>";
+		};
+		22FF56D71D7FA9D100C276EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22FF56D81D7FA9D100C276EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22FF56F01D7FA9D100C276EA /* Deneme 11Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22FF56F11D7FA9D100C276EA /* Deneme_11Tests.m */,
+				22FF56F31D7FA9D100C276EA /* Info.plist */,
+			);
+			path = "Deneme 11Tests";
+			sourceTree = "<group>";
+		};
+		22FF56FB1D7FA9D100C276EA /* Deneme 11UITests */ = {
+			isa = PBXGroup;
+			children = (
+				22FF56FC1D7FA9D100C276EA /* Deneme_11UITests.m */,
+				22FF56FE1D7FA9D100C276EA /* Info.plist */,
+			);
+			path = "Deneme 11UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FF56D31D7FA9D100C276EA /* Deneme 11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FF57011D7FA9D100C276EA /* Build configuration list for PBXNativeTarget "Deneme 11" */;
+			buildPhases = (
+				22FF56D01D7FA9D100C276EA /* Sources */,
+				22FF56D11D7FA9D100C276EA /* Frameworks */,
+				22FF56D21D7FA9D100C276EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deneme 11";
+			productName = "Deneme 11";
+			productReference = 22FF56D41D7FA9D100C276EA /* Deneme 11.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22FF56EC1D7FA9D100C276EA /* Deneme 11Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FF57041D7FA9D100C276EA /* Build configuration list for PBXNativeTarget "Deneme 11Tests" */;
+			buildPhases = (
+				22FF56E91D7FA9D100C276EA /* Sources */,
+				22FF56EA1D7FA9D100C276EA /* Frameworks */,
+				22FF56EB1D7FA9D100C276EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FF56EF1D7FA9D100C276EA /* PBXTargetDependency */,
+			);
+			name = "Deneme 11Tests";
+			productName = "Deneme 11Tests";
+			productReference = 22FF56ED1D7FA9D100C276EA /* Deneme 11Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22FF56F71D7FA9D100C276EA /* Deneme 11UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FF57071D7FA9D100C276EA /* Build configuration list for PBXNativeTarget "Deneme 11UITests" */;
+			buildPhases = (
+				22FF56F41D7FA9D100C276EA /* Sources */,
+				22FF56F51D7FA9D100C276EA /* Frameworks */,
+				22FF56F61D7FA9D100C276EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FF56FA1D7FA9D100C276EA /* PBXTargetDependency */,
+			);
+			name = "Deneme 11UITests";
+			productName = "Deneme 11UITests";
+			productReference = 22FF56F81D7FA9D100C276EA /* Deneme 11UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FF56CC1D7FA9D100C276EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Can KINCAL";
+				TargetAttributes = {
+					22FF56D31D7FA9D100C276EA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					22FF56EC1D7FA9D100C276EA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22FF56D31D7FA9D100C276EA;
+					};
+					22FF56F71D7FA9D100C276EA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22FF56D31D7FA9D100C276EA;
+					};
+				};
+			};
+			buildConfigurationList = 22FF56CF1D7FA9D100C276EA /* Build configuration list for PBXProject "Deneme 11" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22FF56CB1D7FA9D100C276EA;
+			productRefGroup = 22FF56D51D7FA9D100C276EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FF56D31D7FA9D100C276EA /* Deneme 11 */,
+				22FF56EC1D7FA9D100C276EA /* Deneme 11Tests */,
+				22FF56F71D7FA9D100C276EA /* Deneme 11UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FF56D21D7FA9D100C276EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF56E71D7FA9D100C276EA /* LaunchScreen.storyboard in Resources */,
+				22FF56E41D7FA9D100C276EA /* Assets.xcassets in Resources */,
+				22FF56E21D7FA9D100C276EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF56EB1D7FA9D100C276EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF56F61D7FA9D100C276EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FF56D01D7FA9D100C276EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF56DF1D7FA9D100C276EA /* ViewController.m in Sources */,
+				22FF56DC1D7FA9D100C276EA /* AppDelegate.m in Sources */,
+				22FF56D91D7FA9D100C276EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF56E91D7FA9D100C276EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF56F21D7FA9D100C276EA /* Deneme_11Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF56F41D7FA9D100C276EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF56FD1D7FA9D100C276EA /* Deneme_11UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22FF56EF1D7FA9D100C276EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FF56D31D7FA9D100C276EA /* Deneme 11 */;
+			targetProxy = 22FF56EE1D7FA9D100C276EA /* PBXContainerItemProxy */;
+		};
+		22FF56FA1D7FA9D100C276EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FF56D31D7FA9D100C276EA /* Deneme 11 */;
+			targetProxy = 22FF56F91D7FA9D100C276EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22FF56E01D7FA9D100C276EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FF56E11D7FA9D100C276EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22FF56E51D7FA9D100C276EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FF56E61D7FA9D100C276EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FF56FF1D7FA9D100C276EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22FF57001D7FA9D100C276EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FF57021D7FA9D100C276EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Deneme 11/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Deneme-11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22FF57031D7FA9D100C276EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Deneme 11/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Deneme-11";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22FF57051D7FA9D100C276EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Deneme 11Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Deneme-11Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deneme 11.app/Deneme 11";
+			};
+			name = Debug;
+		};
+		22FF57061D7FA9D100C276EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Deneme 11Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Deneme-11Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deneme 11.app/Deneme 11";
+			};
+			name = Release;
+		};
+		22FF57081D7FA9D100C276EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Deneme 11UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Deneme-11UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Deneme 11";
+			};
+			name = Debug;
+		};
+		22FF57091D7FA9D100C276EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Deneme 11UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Deneme-11UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Deneme 11";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FF56CF1D7FA9D100C276EA /* Build configuration list for PBXProject "Deneme 11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF56FF1D7FA9D100C276EA /* Debug */,
+				22FF57001D7FA9D100C276EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FF57011D7FA9D100C276EA /* Build configuration list for PBXNativeTarget "Deneme 11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF57021D7FA9D100C276EA /* Debug */,
+				22FF57031D7FA9D100C276EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22FF57041D7FA9D100C276EA /* Build configuration list for PBXNativeTarget "Deneme 11Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF57051D7FA9D100C276EA /* Debug */,
+				22FF57061D7FA9D100C276EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22FF57071D7FA9D100C276EA /* Build configuration list for PBXNativeTarget "Deneme 11UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF57081D7FA9D100C276EA /* Debug */,
+				22FF57091D7FA9D100C276EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22FF56CC1D7FA9D100C276EA /* Project object */;
+}

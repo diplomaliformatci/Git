@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FF57171D7FAB5200C276EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF57161D7FAB5200C276EA /* AppDelegate.swift */; };
+		22FF57191D7FAB5200C276EA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FF57181D7FAB5200C276EA /* art.scnassets */; };
+		22FF571B1D7FAB5200C276EA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF571A1D7FAB5200C276EA /* GameViewController.swift */; };
+		22FF571E1D7FAB5200C276EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF571C1D7FAB5200C276EA /* Main.storyboard */; };
+		22FF57201D7FAB5200C276EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FF571F1D7FAB5200C276EA /* Assets.xcassets */; };
+		22FF57231D7FAB5200C276EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF57211D7FAB5200C276EA /* LaunchScreen.storyboard */; };
+		22FF572E1D7FAB5200C276EA /* Bos_DosyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF572D1D7FAB5200C276EA /* Bos_DosyaTests.swift */; };
+		22FF57391D7FAB5200C276EA /* Bos_DosyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF57381D7FAB5200C276EA /* Bos_DosyaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22FF572A1D7FAB5200C276EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FF570B1D7FAB5200C276EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FF57121D7FAB5200C276EA;
+			remoteInfo = "Bos Dosya";
+		};
+		22FF57351D7FAB5200C276EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FF570B1D7FAB5200C276EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FF57121D7FAB5200C276EA;
+			remoteInfo = "Bos Dosya";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22FF57131D7FAB5200C276EA /* Bos Dosya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bos Dosya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FF57161D7FAB5200C276EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22FF57181D7FAB5200C276EA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		22FF571A1D7FAB5200C276EA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		22FF571D1D7FAB5200C276EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22FF571F1D7FAB5200C276EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22FF57221D7FAB5200C276EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22FF57241D7FAB5200C276EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FF57291D7FAB5200C276EA /* Bos DosyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bos DosyaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FF572D1D7FAB5200C276EA /* Bos_DosyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bos_DosyaTests.swift; sourceTree = "<group>"; };
+		22FF572F1D7FAB5200C276EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FF57341D7FAB5200C276EA /* Bos DosyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bos DosyaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FF57381D7FAB5200C276EA /* Bos_DosyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bos_DosyaUITests.swift; sourceTree = "<group>"; };
+		22FF573A1D7FAB5200C276EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FF57101D7FAB5200C276EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF57261D7FAB5200C276EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF57311D7FAB5200C276EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FF570A1D7FAB5200C276EA = {
+			isa = PBXGroup;
+			children = (
+				22FF57151D7FAB5200C276EA /* Bos Dosya */,
+				22FF572C1D7FAB5200C276EA /* Bos DosyaTests */,
+				22FF57371D7FAB5200C276EA /* Bos DosyaUITests */,
+				22FF57141D7FAB5200C276EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FF57141D7FAB5200C276EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FF57131D7FAB5200C276EA /* Bos Dosya.app */,
+				22FF57291D7FAB5200C276EA /* Bos DosyaTests.xctest */,
+				22FF57341D7FAB5200C276EA /* Bos DosyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FF57151D7FAB5200C276EA /* Bos Dosya */ = {
+			isa = PBXGroup;
+			children = (
+				22FF57161D7FAB5200C276EA /* AppDelegate.swift */,
+				22FF57181D7FAB5200C276EA /* art.scnassets */,
+				22FF571A1D7FAB5200C276EA /* GameViewController.swift */,
+				22FF571C1D7FAB5200C276EA /* Main.storyboard */,
+				22FF571F1D7FAB5200C276EA /* Assets.xcassets */,
+				22FF57211D7FAB5200C276EA /* LaunchScreen.storyboard */,
+				22FF57241D7FAB5200C276EA /* Info.plist */,
+			);
+			path = "Bos Dosya";
+			sourceTree = "<group>";
+		};
+		22FF572C1D7FAB5200C276EA /* Bos DosyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				22FF572D1D7FAB5200C276EA /* Bos_DosyaTests.swift */,
+				22FF572F1D7FAB5200C276EA /* Info.plist */,
+			);
+			path = "Bos DosyaTests";
+			sourceTree = "<group>";
+		};
+		22FF57371D7FAB5200C276EA /* Bos DosyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22FF57381D7FAB5200C276EA /* Bos_DosyaUITests.swift */,
+				22FF573A1D7FAB5200C276EA /* Info.plist */,
+			);
+			path = "Bos DosyaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FF57121D7FAB5200C276EA /* Bos Dosya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FF573D1D7FAB5200C276EA /* Build configuration list for PBXNativeTarget "Bos Dosya" */;
+			buildPhases = (
+				22FF570F1D7FAB5200C276EA /* Sources */,
+				22FF57101D7FAB5200C276EA /* Frameworks */,
+				22FF57111D7FAB5200C276EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bos Dosya";
+			productName = "Bos Dosya";
+			productReference = 22FF57131D7FAB5200C276EA /* Bos Dosya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22FF57281D7FAB5200C276EA /* Bos DosyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FF57401D7FAB5200C276EA /* Build configuration list for PBXNativeTarget "Bos DosyaTests" */;
+			buildPhases = (
+				22FF57251D7FAB5200C276EA /* Sources */,
+				22FF57261D7FAB5200C276EA /* Frameworks */,
+				22FF57271D7FAB5200C276EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FF572B1D7FAB5200C276EA /* PBXTargetDependency */,
+			);
+			name = "Bos DosyaTests";
+			productName = "Bos DosyaTests";
+			productReference = 22FF57291D7FAB5200C276EA /* Bos DosyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22FF57331D7FAB5200C276EA /* Bos DosyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FF57431D7FAB5200C276EA /* Build configuration list for PBXNativeTarget "Bos DosyaUITests" */;
+			buildPhases = (
+				22FF57301D7FAB5200C276EA /* Sources */,
+				22FF57311D7FAB5200C276EA /* Frameworks */,
+				22FF57321D7FAB5200C276EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FF57361D7FAB5200C276EA /* PBXTargetDependency */,
+			);
+			name = "Bos DosyaUITests";
+			productName = "Bos DosyaUITests";
+			productReference = 22FF57341D7FAB5200C276EA /* Bos DosyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FF570B1D7FAB5200C276EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Can KINCAL";
+				TargetAttributes = {
+					22FF57121D7FAB5200C276EA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					22FF57281D7FAB5200C276EA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22FF57121D7FAB5200C276EA;
+					};
+					22FF57331D7FAB5200C276EA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22FF57121D7FAB5200C276EA;
+					};
+				};
+			};
+			buildConfigurationList = 22FF570E1D7FAB5200C276EA /* Build configuration list for PBXProject "Bos Dosya" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22FF570A1D7FAB5200C276EA;
+			productRefGroup = 22FF57141D7FAB5200C276EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FF57121D7FAB5200C276EA /* Bos Dosya */,
+				22FF57281D7FAB5200C276EA /* Bos DosyaTests */,
+				22FF57331D7FAB5200C276EA /* Bos DosyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FF57111D7FAB5200C276EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF57191D7FAB5200C276EA /* art.scnassets in Resources */,
+				22FF57231D7FAB5200C276EA /* LaunchScreen.storyboard in Resources */,
+				22FF57201D7FAB5200C276EA /* Assets.xcassets in Resources */,
+				22FF571E1D7FAB5200C276EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF57271D7FAB5200C276EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF57321D7FAB5200C276EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FF570F1D7FAB5200C276EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF571B1D7FAB5200C276EA /* GameViewController.swift in Sources */,
+				22FF57171D7FAB5200C276EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF57251D7FAB5200C276EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF572E1D7FAB5200C276EA /* Bos_DosyaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FF57301D7FAB5200C276EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF57391D7FAB5200C276EA /* Bos_DosyaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22FF572B1D7FAB5200C276EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FF57121D7FAB5200C276EA /* Bos Dosya */;
+			targetProxy = 22FF572A1D7FAB5200C276EA /* PBXContainerItemProxy */;
+		};
+		22FF57361D7FAB5200C276EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FF57121D7FAB5200C276EA /* Bos Dosya */;
+			targetProxy = 22FF57351D7FAB5200C276EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22FF571C1D7FAB5200C276EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FF571D1D7FAB5200C276EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22FF57211D7FAB5200C276EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FF57221D7FAB5200C276EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FF573B1D7FAB5200C276EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22FF573C1D7FAB5200C276EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FF573E1D7FAB5200C276EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bos Dosya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Bos-Dosya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22FF573F1D7FAB5200C276EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bos Dosya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Bos-Dosya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22FF57411D7FAB5200C276EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Bos DosyaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Bos-DosyaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bos Dosya.app/Bos Dosya";
+			};
+			name = Debug;
+		};
+		22FF57421D7FAB5200C276EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bos DosyaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Bos-DosyaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bos Dosya.app/Bos Dosya";
+			};
+			name = Release;
+		};
+		22FF57441D7FAB5200C276EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Bos DosyaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Bos-DosyaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bos Dosya";
+			};
+			name = Debug;
+		};
+		22FF57451D7FAB5200C276EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bos DosyaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.Bos-DosyaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bos Dosya";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FF570E1D7FAB5200C276EA /* Build configuration list for PBXProject "Bos Dosya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF573B1D7FAB5200C276EA /* Debug */,
+				22FF573C1D7FAB5200C276EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FF573D1D7FAB5200C276EA /* Build configuration list for PBXNativeTarget "Bos Dosya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF573E1D7FAB5200C276EA /* Debug */,
+				22FF573F1D7FAB5200C276EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22FF57401D7FAB5200C276EA /* Build configuration list for PBXNativeTarget "Bos DosyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF57411D7FAB5200C276EA /* Debug */,
+				22FF57421D7FAB5200C276EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22FF57431D7FAB5200C276EA /* Build configuration list for PBXNativeTarget "Bos DosyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF57441D7FAB5200C276EA /* Debug */,
+				22FF57451D7FAB5200C276EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22FF570B1D7FAB5200C276EA /* Project object */;
+}
